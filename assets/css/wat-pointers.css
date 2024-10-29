@@ -1,0 +1,70 @@
+.wp-pointer-content .wat-pointer-title:before {
+	content: "\f223";
+}
+.wp-pointer-content .wat-pointer-title .dashicons-no {
+	position: absolute;
+	right: 20px;
+	font-size: 30px;
+	top: 10px;
+	cursor: pointer;
+}
+.wp-core-ui .wat-next, .wp-core-ui .wat-prev {
+	margin-left: 8px;
+}
+
+.wat-status {
+	font-weight: 700;
+}
+div#wpcontent.wat-open:after {
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: #00000052;
+	top: 0;
+	left: 0;
+	z-index: 99999;
+}
+.wat-pointer {
+	z-index: 99999 !important;
+}
+body:not(.wp-admin) .wat-next, body:not(.wp-admin) .wat-prev, body:not(.wp-admin) .wat-next:hover, body:not(.wp-admin) .wat-prev:hover {
+	background: #2271b1;
+	border-color: #2271b1;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: none;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 13px;
+	line-height: 2.15384615;
+	min-height: 30px;
+	margin: 0 8px 0 0;
+	padding: 0 10px;
+	cursor: pointer;
+	border-width: 1px;
+	border-style: solid;
+	-webkit-appearance: none;
+	border-radius: 3px;
+	white-space: nowrap;
+	box-sizing: border-box;
+}
+body:not(.wp-admin) .wat-go-to, body:not(.wp-admin) .wat-go-to:hover {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 13px;
+	line-height: 2.15384615;
+	min-height: 30px;
+	margin: 0 8px 0 0;
+	padding: 0 10px;
+	cursor: pointer;
+	border-width: 1px;
+	border-style: solid;
+	-webkit-appearance: none;
+	border-radius: 3px;
+	white-space: nowrap;
+	box-sizing: border-box;
+}
+.wat-pointer.wp-pointer-right .wp-pointer-arrow {
+	left: unset !important;
+}
